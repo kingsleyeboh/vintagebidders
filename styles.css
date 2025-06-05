@@ -393,6 +393,37 @@ h1, h2, h3 {
 }
 
 /* Testimonial */
+
+.reciepts {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.bid1 {
+    width: 250px;
+    height: 450px;
+    background-image: url(images/Bid1.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.bid2 {
+    width: 270px;
+    height: 450px;
+    background-image: url(images/Bid2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* .bid3 {
+    width: 300px;
+    height: 450px;
+    background-image: url(images/Bid3.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+} */
+
 .testimonial {
     text-align: center;
 }
@@ -440,7 +471,7 @@ blockquote {
     height: 64px;
     background: #DEB887;
     border-radius: 50%;
-    background-image: url(sarah\ M.jpg);
+    background-image: url(images/sarah\ M.jpg);
     background-position: center;
     background-size: contain;
 }
@@ -606,6 +637,14 @@ blockquote {
     .final-cta h2 {
         font-size: 2rem;
     }
+
+     .reciepts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
 }
 
 @media (max-width: 480px) {
@@ -640,4 +679,6 @@ blockquote {
     .testimonial-card {
         padding: 24px 20px;
     }
+
+   
 }
