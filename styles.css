@@ -176,6 +176,24 @@ h1, h2, h3 {
 
 .avatar:first-child {
     margin-left: 0;
+    background-image: url(images/charismatic-happy-black-curly-young-lady-looks-down-with-broad-smile-wears-transparent-glasses-red-headband-laughs-something-funny-poses-against-white-wall-blank-copy-space-right-side.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.avatar:nth-child(2) {
+    margin-left: -10px;
+    background-image: url(images/headshot-handsome-young-afro-american-male-looking-with-broad-friendly-smile-enjoying-good-day-leisure-time-indoors-black-man-feeling-happy-carefree-while-relaxing-home.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.avatar:nth-child(3) {
+    margin-left: -10px;
+    background-image: url(/images/ambruaz-HgKPVoA7J5Y-unsplash\ \(1\).jpg);
+    background-size: 210%;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .rating {
@@ -443,7 +461,7 @@ h1, h2, h3 {
     margin: 0 auto;
     border: 1px solid #DEB887;
     box-shadow: 0 12px 32px rgba(0, 0, 0, 0.1);
-    margin-bottom: 24px;
+    margin-bottom: 20px;
 }
 
 .testimonial-card .stars {
